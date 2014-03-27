@@ -9,3 +9,10 @@ background: white;
 padding-bottom: 1em;
 text-align: justify;
 }
+#mainColumn {
+width: 80%;
+float:right;
+background: white;
+padding-bottom: 1em;
+text-align: justify;
+}
