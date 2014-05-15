@@ -2,12 +2,13 @@
 layout: post
 title:  "May Reading List"
 date:   2014-05-15 
-categories: jekyll update
+categories: Reading List 
 ---
 
-I thought I would post a Reading List of current books that I am reading for the month. 
+I thought I would post a Reading List of current books that I am reading for the month. I may put other items on this post besides books as Books tend to take longer than a month to read. 
 
-![learning python]({{ site.url }}/images/learning_python.jpg)
+"Python: Create-Modify-Reuse" By Jim Knowlton
+"Learning SQL" By Alan Beaulieu
 
 
 
