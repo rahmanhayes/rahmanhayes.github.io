@@ -7,8 +7,8 @@ categories: Reading List
 
 I thought I would post a Reading List of current books that I am reading for the month. I may put other items on this post besides books as Books tend to take longer than a month to read. 
 
-"Python: Create-Modify-Reuse" By Jim Knowlton
-"Learning SQL" By Alan Beaulieu
+<li>"Python: Create-Modify-Reuse" By Jim Knowlton</li>
+<li>"Learning SQL" By Alan Beaulieu</li>
 
 
 
