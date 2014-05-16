@@ -1,7 +1,0 @@
-Some notes that I did to get jekyll running on my pc:
-
-When running as Adminstrator:
-
-export COMSPEC=/cygdrive/c/Windows/System32/cmd.exe
-
-ln -s /usr/bin/python /usr/local/bin/python2
