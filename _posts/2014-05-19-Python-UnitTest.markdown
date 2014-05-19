@@ -146,7 +146,7 @@ OK
 This test is a failing test:
 
 
-{% highlight %}
+{% highlight ruby %}
 import unittest
 from calculator import Calculator
 
