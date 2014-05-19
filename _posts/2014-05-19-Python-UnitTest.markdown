@@ -5,7 +5,7 @@ date:   2014-05-19
 categories: jekyll update
 ---
 
-As python pratice, I decided to follow one of the tutorials on Tuts for Unit Testing in Python: (http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137)
+As python pratice, I decided to follow one of the tutorials on Tuts for Unit Testing in Python:  [Tuts] (http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137)
 
 This is a code that introduces unit testing in Python. From David Sale's post, the main methods in Python's Unit Testing is:
 
