@@ -141,5 +141,31 @@ OK
 
 {% endhighlight %}
 
+
+- Test to add anything other than numbers. Using the assertRaises to test.
+This test is a failing test:
+
+
+{% highlight %}
+import unittest
+from calculator import Calculator
+
+class TddInPythonExample(unittest.TestCase):
+
+    def test_calculator_add_method_returns_correct_result(self):
+        calc = Calculator()
+        result = calc.add(2,2)
+        self.assertEqual(4, result)
+
+    def test_calculator_returns_error_message_if_both_args_not_number(self):
+        self.assertRaises(ValueError, self.calc.add, 'two', 'three')
+{% endhighlight %}
+ 
+
+
+
+
+
+
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
