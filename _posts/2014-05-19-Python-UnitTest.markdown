@@ -5,10 +5,23 @@ date:   2014-05-19
 categories: jekyll update
 ---
 
-As python pratice, I decided to follow one of the tutorials on Tuts for Unit Testing in Python: http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137
+As python pratice, I decided to follow one of the tutorials on Tuts for Unit Testing in Python: (http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137)
 
-This is a code that introduces unit testing in Python.
-This involves writing a calculator class, with add, subtract and other methods.
+This is a code that introduces unit testing in Python. From David Sale's post, the main methods in Python's Unit Testing is:
+
+   assert - base assert allowing you to write your own assertions
+   assertEqual(a, b) - check a and b are equal
+   assertNotEqual(a, b) - check a and b are not equal
+   assertIn(a, b) - check that a is in the item b
+   assertNotIn(a, b) - check that a is not in the item b
+   assertFalse(a) - check that the value of a is False
+   assertTrue(a)- check that the value of a is True
+   assertIsInstance(a, TYPE) - check that a is of type "TYPE"
+   assertRaises(ERROR,a,args) - check that when a is called with args that it raises ERROR.
+
+
+
+The following tutorial involves writing a calculator class, with add, subtract and other methods.
 Below is an add function which determines the sum of two numbers and returns the output. Below is the failing test:
 
 This will be called: calculator_tests.py
