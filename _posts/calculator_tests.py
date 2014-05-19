@@ -1,3 +1,7 @@
+class Calculator(object):
+    def add(self, x, y):
+        pass
+
 import unittest
 class TddInPythonExample(unittest.TestCase):
     def test_calculator_add_method_returns_correct_result(self):

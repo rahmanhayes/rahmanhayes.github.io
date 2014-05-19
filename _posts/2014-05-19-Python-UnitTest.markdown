@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python Unit Test"
-date:   2014-05-18 
+date:   2014-05-19 
 categories: jekyll update
 ---
 
@@ -48,6 +48,45 @@ NameError: global name 'Calculator' is not defined
 ----------------------------------------------------------------------
 Ran 1 test in 0.002s
 {% endhighlight %}
+
+The test fails because "Calculator" is not defined. 
+Adding the "Calculator" below to calculator.py
+
+{% highlight ruby %}
+class Calculator(object):
+    def add(self, x, y):
+        pass
+
+import unittest
+class TddInPythonExample(unittest.TestCase):
+    def test_calculator_add_method_returns_correct_result(self):
+        calc = Calculator()
+        result - calc.add(2,2)
+        self.assertEqual(4, result)
+
+if __name__ == "__main__":
+    unittest.main()
+{% endhighlight %}
+
+Run the test again:
+
+{% highlight ruby %}
+admins-MacBook-Pro:_posts admin$ python calculator_tests.py 
+E
+======================================================================
+ERROR: test_calculator_add_method_returns_correct_result (__main__.TddInPythonExample)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "calculator_tests.py", line 9, in test_calculator_add_method_returns_correct_result
+    result - calc.add(2,2)
+NameError: global name 'result' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)
+{% endhighlight %}
+
 
 
 
