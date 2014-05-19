@@ -71,7 +71,7 @@ if __name__ == "__main__":
 Run the test again:
 
 {% highlight ruby %}
-admins-MacBook-Pro:_posts admin$ python calculator_tests.py 
+$ python calculator_tests.py 
 E
 ======================================================================
 ERROR: test_calculator_add_method_returns_correct_result (__main__.TddInPythonExample)
