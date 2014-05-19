@@ -24,18 +24,32 @@ class TddInPythonExample(unittest.TestCase):
         self.assertEqual(4, result)
 {% endhighlight %}
 
+I found that I needed to add if __name__ == "__main__" to get the test to run:
+
 
 {% highlight ruby %}
-import unittest
-class TddInPythonExample(unittest.TestCase):
-    def test_calculator_add_method_returns_correct_result(self):
-        calc = Calculator()
-        result - calc.add(2,2)
-        self.assertEqual(4, result)
-
 if __name__ == "__main__":
     unittest.main()
 {% endhighlight %}
+
+Running the test:
+
+{% highlight ruby %}
+$ python calculator_tests.py 
+E
+======================================================================
+ERROR: test_calculator_add_method_returns_correct_result (__main__.TddInPythonExample)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "calculator_tests.py", line 4, in test_calculator_add_method_returns_correct_result
+    calc = Calculator()
+NameError: global name 'Calculator' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+{% endhighlight %}
+
+
 
 
 
