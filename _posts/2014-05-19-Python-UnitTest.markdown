@@ -84,26 +84,62 @@ if __name__ == "__main__":
 Run the test again:
 
 {% highlight ruby %}
-$ python calculator_tests.py 
-E
+$ python calculator_tests.py
+F
 ======================================================================
-ERROR: test_calculator_add_method_returns_correct_result (__main__.TddInPythonExample)
+FAIL: test_calculator_add_method_returns_correct_result (__main__.TddInPythonExample)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "calculator_tests.py", line 9, in test_calculator_add_method_returns_correct_result
-    result - calc.add(2,2)
-NameError: global name 'result' is not defined
+  File "calculator_tests.py", line 10, in test_calculator_add_method_returns_correct_result
+    self.assertEqual(4, result)
+AssertionError: 4 != None
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.002s
+Ran 1 test in 0.001s
 
-FAILED (errors=1)
+FAILED (failures=1)
+
 {% endhighlight %}
 
+Fix the method and see if our test passes now: 
 
+{% highlight ruby %}
+class Calculator(object):
+ 
+    def add(self, x, y):
+        return x+y
+{% endhighlight ruby %}
 
+- Final code:
 
+{% highlight ruby %}
 
+class Calculator(object):
+    def add(self, x, y):
+        return x+y
+
+import unittest
+class TddInPythonExample(unittest.TestCase):
+    def test_calculator_add_method_returns_correct_result(self):
+        calc = Calculator()
+        result = calc.add(2,2)
+        self.assertEqual(4, result)
+
+if __name__ == "__main__":
+    unittest.main()
+{% endhighlight %}
+
+- Run from the Command line:
+
+{% highlight ruby %}
+$ python calculator_tests.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+
+{% endhighlight %}
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
