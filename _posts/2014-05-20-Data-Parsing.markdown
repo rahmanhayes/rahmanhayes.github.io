@@ -38,11 +38,10 @@ if result:
 {% endhighlight %}
 
 
-- Run on the command line:
+Run on the command line:
 
 
 {% highlight ruby %}
-rhayes@PC74110D ~
 $ python textparsing.py
 rjarmand@yahoo.com
 rjarmand
