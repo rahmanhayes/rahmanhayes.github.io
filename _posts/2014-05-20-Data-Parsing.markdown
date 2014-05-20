@@ -11,7 +11,10 @@ Example Email verification:
 
 The function (search) scans through a string and will search for any location where the regex might match:
 
-result = re.search('([w.-]+)@([w.-]+)', myString)
+{% highlight ruby %}
+result = re.search('([\w.-]+)@([\w.-]+)', myString)
+{% endhighlight%}
+
 
 The function group() helps to return the string matched by the regex. 
 
@@ -20,7 +23,7 @@ The pattern \w matches any alphanumeric character and is equivalent to the class
 
 
 
-example:
+Example:
 
 
 {% highlight ruby %}
@@ -36,6 +39,7 @@ if result:
 
 
 - Run on the command line:
+
 
 {% highlight ruby %}
 rhayes@PC74110D ~
