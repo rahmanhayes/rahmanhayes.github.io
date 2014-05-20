@@ -162,10 +162,11 @@ class TddInPythonExample(unittest.TestCase):
 {% endhighlight %}
  
 
+- Run the calculator_test.py from the command line:
+
+
+{% highlight ruby %}
+{% endhighlight %}
 
 
 
-
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
