@@ -25,7 +25,10 @@ id, typeTwo, name, type
 {% endhighlight %}
 
 
+Code in python looks like:
+
 {% highlight ruby %}
+import csv
 
 with open("pokemon.csv") as f:
     data = csv.reader(f)
