@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <pokemon>
 	<row>
 		<id> 001</id>
@@ -66,3 +67,4 @@
 		<type> Normal</type>
 	</row>
 </pokemon>
+	
