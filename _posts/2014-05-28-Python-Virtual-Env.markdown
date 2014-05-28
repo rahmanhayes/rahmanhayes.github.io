@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Parsing an XML file in Python"
+title:  "Installing a Virtual Environment for Python"
 date:   2014-05-28 
 categories: python 
 ---
@@ -19,6 +19,7 @@ pip install virtualenv
 $ wget http://peak.telecommunity.com/dist/ez_setup.py | python
 {% endhighlight%}
 
+* Use easy_install to install the virtualenv
 
 {% highlight ruby %}
 $ easy_install virtualenv
@@ -42,7 +43,7 @@ Finished processing dependencies for virtualenv
 
 - Basic Usage:
 
-Create a virtual environment:
+* Create a virtual environment:
 
 
 {% highlight ruby %}
@@ -52,7 +53,25 @@ Also creating executable in venv/bin/python
 Installing setuptools, pip...done.
 {% endhighlight%}
 
+* Use new environment:
 
+{% highlight ruby %}
+$ source venv/bin/activate
+(venv)
+{% endhighlight%}
+
+* A new folder has been created for this virtual environment:
+
+{% highlight ruby %}
+$ ll venv
+total 8
+drwxr-xr-x+ 1 rhayes 0 May 28 15:47 .
+drwxr-xr-x+ 1 rhayes 0 May 28 15:55 ..
+drwxr-xr-x+ 1 rhayes 0 May 28 15:47 bin
+drwxr-xr-x+ 1 rhayes 0 May 28 15:47 include
+drwxr-xr-x+ 1 rhayes 0 May 28 15:47 lib
+(venv)
+{% endhighlight%}
 
 
 - References: http://docs.python-guide.org/en/latest/dev/virtualenvs/
