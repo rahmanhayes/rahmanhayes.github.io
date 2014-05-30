@@ -7,5 +7,5 @@ categories: HTML5
 
 Created a tasklist app from the "HTML5 Web Application Development By Example Beginner's guide" by J.M. Gustafson:
 
-[https://github.com/rjarmand/tasklist](https://github.com/rjarmand/tasklist)
+[http://rjarmand.github.io/tasklist/taskAtHand/taskAtHand.html](http://rjarmand.github.io/tasklist/taskAtHand/taskAtHand.html)
 
