@@ -7,7 +7,7 @@ categories: python
 
 When I am working in Python, I tend to install various modules depending on the project. While reading the stacktrace forum, I found that having a clean environment is helpful when going from one project to another. Python has a virtual environment that can be used to keep a clean and organized Python environment.
 
-- Install the virtualenv tool via pip:
+### Install the virtualenv tool via pip:
 
 {% highlight ruby %}
 pip install virtualenv
@@ -41,7 +41,7 @@ Processing dependencies for virtualenv
 Finished processing dependencies for virtualenv
 {% endhighlight%}
 
-- Basic Usage:
+### Basic Usage:
 
 * Create a virtual environment:
 
@@ -74,4 +74,4 @@ drwxr-xr-x+ 1 rhayes 0 May 28 15:47 lib
 {% endhighlight%}
 
 
-- References: http://docs.python-guide.org/en/latest/dev/virtualenvs/
+- References: (http://docs.python-guide.org/en/latest/dev/virtualenvs/) [http://docs.python-guide.org/en/latest/dev/virtualenvs/]
