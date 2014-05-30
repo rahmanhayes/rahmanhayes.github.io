@@ -74,4 +74,4 @@ drwxr-xr-x+ 1 rhayes 0 May 28 15:47 lib
 {% endhighlight%}
 
 
-- References: (http://docs.python-guide.org/en/latest/dev/virtualenvs/)[http://docs.python-guide.org/en/latest/dev/virtualenvs/]
+- References: [http://docs.python-guide.org/en/latest/dev/virtualenvs/](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
