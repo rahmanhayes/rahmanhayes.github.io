@@ -7,5 +7,5 @@ categories: instagram
 
 I'm starting a new weekly section, Instagram Follow Friday. Check out Keith Tatum's "The Type Hunter" [http://instagram.com/thetypehunter](http://instagram.com/thetypehunter). Contains many examples of vintage type. 
 
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+![My helpful screenshot]({{ site.url }}/assets/instagram_5232014.png)
 
