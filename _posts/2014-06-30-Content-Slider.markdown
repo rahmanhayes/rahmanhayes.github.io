@@ -15,13 +15,55 @@ categories: css
 <title>An Interesting Title Goes Here</title>
  
 <style>
- 
+#wrapper {
+    width: 2200px;
+    position: relative;
+    left: 0px;
+}
+
+.content {
+    float: left;
+    height: 350px;
+    white-space: normal;
+    width: 550px;
+} 
+
+#itemOne {
+    background-color: #ADFF2F;
+}
+
+#itemTwo {
+    background-color: #FF7F50;
+}
+
+#itemThree {
+    background-color: #1E90FF;
+}
+
+#itemFour {
+    background-color: #DC143C;
+}
+
 </style>
 </head>
  
 <body>
+<div id="wrapper">
+    <div id="itemOne" class="content">
+    </div>
+
+    <div id="itemTwo" class="content">
+    </div>
+
+
+    <div id="itemThree" class="content">
+    </div>
+
+    <div id="itemFour" class="content">
+    </div>
  
  
+</div>
  
  
 <script>
