@@ -44,23 +44,32 @@ categories: css
     background-color: #DC143C;
 }
 
+#contentContainer {
+    widith: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+}
+
 </style>
 </head>
  
 <body>
 
-<div id="wrapper">
-    <div id="itemOne" class="content">
+<div id="contentContainer">
+    <div id="wrapper">
+        <div id="itemOne" class="content">
  
-    </div>
-    <div id="itemTwo" class="content">
+        </div>
+        <div id="itemTwo" class="content">
  
-    </div>
-    <div id="itemThree" class="content">
+        </div>
+        <div id="itemThree" class="content">
  
-    </div>
-    <div id="itemFour" class="content">
+        </div>
+        <div id="itemFour" class="content">
  
+        </div>
     </div>
 </div>
  
