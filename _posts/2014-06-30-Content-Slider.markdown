@@ -28,7 +28,7 @@ categories: css
 } 
 
 #contentContainer {
-    widith: 550px;
+    width: 550px;
     height: 350px;
     border: 5px black solid;
     overflow: hidden;
