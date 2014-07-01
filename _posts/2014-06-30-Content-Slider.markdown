@@ -14,7 +14,6 @@ categories: css
 <title>An Interesting Title Goes Here</title>
  
 <style>
-
 #wrapper {
     width: 2200px;
     position: relative;
@@ -29,7 +28,6 @@ categories: css
 } 
 
 #contentContainer {
-    float: left;
     widith: 550px;
     height: 350px;
     border: 5px black solid;
@@ -92,7 +90,6 @@ categories: css
     background-color: #484848;
     color: #FFFFFF;
 }
-
 </style>
 
 
