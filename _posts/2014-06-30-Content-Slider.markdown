@@ -5,7 +5,6 @@ date:   2014-06-30
 categories: css 
 ---
 
-<html>
 
 <head>
 <meta charset="utf-8">
@@ -200,7 +199,6 @@ function removeClass(element, classToRemove) {
 
 </body>
 
-</html>
 
 
 
