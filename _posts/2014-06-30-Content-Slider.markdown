@@ -92,7 +92,45 @@ categories: css
 }
 </style>
 
-<script type="text/javascript">
+
+</head>
+ 
+<body>
+
+<div id="contentContainer">
+
+    <div id="wrapper">
+
+        <div id="itemOne" class="content">
+
+        </div>
+
+        <div id="itemTwo" class="content">
+ 
+        </div>
+
+        <div id="itemThree" class="content">
+ 
+        </div>
+
+        <div id="itemFour" class="content">
+ 
+        </div>
+
+    </div>
+
+</div>
+ 
+<div id="navLinks">
+    <ul>
+        <li class="itemLinks" data-pos="0px">1</li>
+        <li class="itemLinks" data-pos="-550px">2</li>
+        <li class="itemLinks" data-pos="-1100px">3</li>
+        <li class="itemLinks" data-pos="-1650px">4</li>
+    </ul>
+</div>
+ 
+<script>
 var links = document.querySelectorAll(".itemLinks");
 var wrapper = document.querySelector("#wrapper");
  
@@ -154,49 +192,7 @@ function removeClass(element, classToRemove) {
         element.className = element.className.replace(classToRemove, "");
         return;
     }
-}
-</script>
-
-
-</head>
- 
-<body>
-
-<div id="contentContainer">
-
-    <div id="wrapper">
-
-        <div id="itemOne" class="content">
-
-        </div>
-
-        <div id="itemTwo" class="content">
- 
-        </div>
-
-        <div id="itemThree" class="content">
- 
-        </div>
-
-        <div id="itemFour" class="content">
- 
-        </div>
-
-    </div>
-
-</div>
- 
-<div id="navLinks">
-    <ul>
-        <li class="itemLinks" data-pos="0px">1</li>
-        <li class="itemLinks" data-pos="-550px">2</li>
-        <li class="itemLinks" data-pos="-1100px">3</li>
-        <li class="itemLinks" data-pos="-1650px">4</li>
-    </ul>
-</div>
- 
-<script>
- 
+} 
 </script>
 
 </body>
