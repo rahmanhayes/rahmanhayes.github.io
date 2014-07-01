@@ -92,7 +92,7 @@ categories: css
 }
 </style>
 
-<script>
+<script type="text/javascript">
 var links = document.querySelectorAll(".itemLinks");
 var wrapper = document.querySelector("#wrapper");
  
