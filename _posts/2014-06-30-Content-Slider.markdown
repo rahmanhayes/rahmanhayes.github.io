@@ -17,7 +17,8 @@ categories: css
 <style>
 #wrapper {
     width: 2200px;
-    position: relative;
+    position: absolute; 
+    /* position: relative; */
     left: 0px;
 }
 
