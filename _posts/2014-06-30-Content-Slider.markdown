@@ -51,6 +51,47 @@ categories: css
     background-color: #DC143C;
 }
 
+#navLinks {
+    text-align: center;
+    width: 550px;
+}
+
+#navLinks ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#navLinks ul li {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    float: left;
+    width: 25px;
+    height: 23px;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    outline: #333 solid 3px;
+    padding-top: 2px;
+}
+
+#navLinks ul li:hover {
+    background-color: #FFFF00;
+}
+
+#navLinks ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+
+#navLinks ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+
 </style>
 
 </head>
