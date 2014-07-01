@@ -90,7 +90,9 @@ categories: css
     background-color: #484848;
     color: #FFFFFF;
 }
+</style>
 
+<script>
 var links = document.querySelectorAll(".itemLinks");
 var wrapper = document.querySelector("#wrapper");
  
@@ -153,8 +155,8 @@ function removeClass(element, classToRemove) {
         return;
     }
 }
+</script>
 
-</style>
 
 </head>
  
