@@ -19,6 +19,7 @@ Exercise in creating a Content slider that offers content on separate blocks.
     width: 2200px;
     position: relative;
     left: 0px;
+    transition: left .5s ease-in-out;
 }
 
 .content {
