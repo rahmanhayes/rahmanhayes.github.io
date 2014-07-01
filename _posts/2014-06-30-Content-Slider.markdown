@@ -48,28 +48,29 @@ categories: css
 </head>
  
 <body>
+
 <div id="wrapper">
     <div id="itemOne" class="content">
+ 
     </div>
-
     <div id="itemTwo" class="content">
+ 
     </div>
-
-
     <div id="itemThree" class="content">
+ 
     </div>
-
     <div id="itemFour" class="content">
+ 
     </div>
- 
- 
 </div>
  
  
 <script>
  
 </script>
+
 </body>
+
 </html>
 
 
