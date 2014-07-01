@@ -22,11 +22,18 @@ categories: css
 }
 
 .content {
-    float: left;
+    /* float: left; */
     height: 350px;
     white-space: normal;
     width: 550px;
 } 
+
+#contentContainer {
+    widith: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+}
 
 #itemOne {
     background-color: #ADFF2F;
@@ -42,13 +49,6 @@ categories: css
 
 #itemFour {
     background-color: #DC143C;
-}
-
-#contentContainer {
-    widith: 550px;
-    height: 350px;
-    border: 5px black solid;
-    overflow: hidden;
 }
 
 </style>
