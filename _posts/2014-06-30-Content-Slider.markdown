@@ -22,7 +22,7 @@ categories: css
 }
 
 .content {
-    /* float: left; */
+    float: left; 
     height: 350px;
     white-space: normal;
     width: 550px;
@@ -52,27 +52,43 @@ categories: css
 }
 
 </style>
+
 </head>
  
 <body>
 
 <div id="contentContainer">
+
     <div id="wrapper">
+
         <div id="itemOne" class="content">
- 
+
         </div>
+
         <div id="itemTwo" class="content">
  
         </div>
+
         <div id="itemThree" class="content">
  
         </div>
+
         <div id="itemFour" class="content">
  
         </div>
+
     </div>
+
 </div>
  
+<div id="navLinks">
+    <ul>
+        <li class="itemLinks" data-pos="0px">1</li>
+        <li class="itemLinks" data-pos="-550px">2</li>
+        <li class="itemLinks" data-pos="-1100px">3</li>
+        <li class="itemLinks" data-pos="-1650px">4</li>
+    </ul>
+</div>
  
 <script>
  
