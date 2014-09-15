@@ -7,4 +7,6 @@ title: Portfolio
 <br>
 
 Web
-<ul><a href="http://mydrupal.site90.net/drupal-7.31/" target="_blank">drupal site</a></ul>
+<ul>
+<li><span><a href="http://mydrupal.site90.net/drupal-7.31/" target="_blank">drupal site</a></li></span>
+</ul>
