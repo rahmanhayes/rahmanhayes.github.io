@@ -162,7 +162,6 @@ a:visited { color: #a0a; }
 /* projects */
 
 #projectContainer {
-  overflow: auto;
 }
 
 .projects {
