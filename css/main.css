@@ -161,8 +161,14 @@ a:visited { color: #a0a; }
 
 /* projects */
 
-#projects {
+.projects {
+text-align: center;
+}
 
+.project {
+  float: left;
+  height: 300px;
+  width: 50%;
 }
 
 .coroflot {
@@ -170,6 +176,6 @@ a:visited { color: #a0a; }
 }
 
 .mydrupal {
-  background: #222219;
+  background: #383830;
 }
 
