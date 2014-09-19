@@ -14,4 +14,3 @@ title: Portfolio
     </div>
 </div> 
 <div>
-<!--End projectContainer -->
