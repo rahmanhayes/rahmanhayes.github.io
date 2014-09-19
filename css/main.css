@@ -158,3 +158,74 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+/*Portfolio */
+/* Line 1 */
+*
+{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  border-top-width: 0px;
+  border-right-width-value: 0px;
+  border-bottom-width: 0px;
+  border-left-width-value: 0px;
+  border-top-style: none;
+  border-right-style-value: none;
+  border-bottom-style: none;
+  border-left-style-value: none;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-size-adjust: inherit;
+  font-stretch: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Line 85 */
+a
+{
+  font-weight: 400;
+  color: inherit;
+}
+
+/* Line 91 */
+a:hover
+{
+  opacity: 0.8;
+}
+
+/* Line 283 */
+.project a, .project > p
+{
+  font-size: 2.6rem;
+  padding-top: 11rem;
+  padding-right: 1rem;
+  padding-bottom: 0px;
+  padding-left: 1rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-weight: 300;
+}
+
+.coroflot {
+  background: #be05c6;
+
+.project.ihi-ios {
+  background: #34AADC;
+}
